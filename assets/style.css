@@ -726,3 +726,73 @@ h1,
     line-height:1.08 !important;
   }
 }
+
+
+/* LA Blade ready sync pass */
+.origin-quote{
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:28px;
+  padding:28px;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(255,63,180,.18), transparent 42%),
+    rgba(255,255,255,.055);
+  box-shadow:0 18px 54px rgba(0,0,0,.24);
+}
+.origin-quote blockquote{
+  margin:0;
+  font-size:clamp(24px,3vw,38px);
+  line-height:1.18;
+  letter-spacing:-.015em;
+  font-weight:900;
+  color:#fff7fb;
+}
+.origin-quote p{
+  margin:16px 0 0;
+  color:#d8cce6;
+  line-height:1.6;
+}
+.truth-strip{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin-top:22px;
+}
+.truth{
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:18px;
+  padding:16px;
+  background:rgba(0,0,0,.18);
+  color:#eadff2;
+  font-weight:850;
+}
+.truth.no{color:#ffb8dc}
+.truth.yes{color:#b8fff8}
+.story-card{
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:26px;
+  padding:26px;
+  background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.035));
+}
+.story-card h3{
+  font-size:24px;
+  letter-spacing:-.012em;
+}
+.story-card p{
+  color:#d8cce6;
+  line-height:1.7;
+}
+.sync-note{
+  margin-top:18px;
+  padding:16px 18px;
+  border-left:4px solid var(--pink);
+  border-radius:16px;
+  background:rgba(255,255,255,.06);
+  color:#eadff2;
+  line-height:1.6;
+}
+@media (max-width:900px){
+  .truth-strip{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:560px){
+  .truth-strip{grid-template-columns:1fr}
+}

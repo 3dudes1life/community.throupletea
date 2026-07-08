@@ -1,4 +1,4 @@
-# Throuple Tea Community — Startup V3
+# Throuple Tea Community — LA Blade Ready
 
 A polished GitHub Pages starter site for a free, friendship-first throuple and triad community.
 
@@ -50,3 +50,14 @@ This version includes the readable header/nav/hero typography pass across every 
 ## V3 Fix
 
 Fixed the title spacing/letter-spacing issue across all pages so large headlines no longer look cramped or hard to read.
+
+
+## LA Blade Ready Sync
+
+This version syncs the website around the article-week message:
+
+- “Where do throuples and triads go to find real community?”
+- Built by us. For us. Always free.
+- Free access, not a membership sale.
+- Friendship-first, not dating or hookup-first.
+- Storefront now, backend privately this summer.
