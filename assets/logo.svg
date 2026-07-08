@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" role="img" aria-labelledby="title desc">
-  <title id="title">Throuple Tea Community</title>
-  <desc id="desc">A neon gradient wordmark for the Throuple Tea Community.</desc>
-  <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#ff2ca8"/>
-      <stop offset="0.55" stop-color="#ff9f45"/>
-      <stop offset="1" stop-color="#4ef4d2"/>
-    </linearGradient>
-  </defs>
-  <rect width="600" height="160" rx="36" fill="#10061a"/>
-  <circle cx="76" cy="80" r="38" fill="url(#g)" opacity=".95"/>
-  <text x="132" y="75" fill="#fff8ff" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-2">Throuple Tea</text>
-  <text x="134" y="112" fill="#d8c8e6" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="5">COMMUNITY</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Throuple Tea Community"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ff3fbf"/><stop offset=".55" stop-color="#6d48ff"/><stop offset="1" stop-color="#ff9a3d"/></linearGradient></defs><rect width="120" height="120" rx="34" fill="url(#g)"/><path d="M34 34h52v12H67v47H53V46H34V34Z" fill="white"/><path d="M76 56c9 0 16 7 16 16S85 88 76 88h-5V76h5a4 4 0 0 0 0-8h-5V56h5Z" fill="white" opacity=".92"/></svg>

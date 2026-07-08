@@ -1,50 +1,28 @@
-# Throuple Tea Community Website
+# Throuple Tea Community — Premium GitHub Pages Site
 
-A professional GitHub Pages-ready starter site for the Throuple Tea Community.
+This is a polished static starter website for the Throuple Tea Community.
 
-## Included files
+## Files
+- `index.html` — professional landing page
+- `guidelines.html` — community mission, rules, values, and moderation promise
+- `join.html` — invite/waitlist page with placeholder form
+- `platform.html` — technical platform plan
+- `assets/style.css` — responsive premium dark/neon styling
+- `assets/script.js` — current year helper
+- `assets/logo.svg` — placeholder TT logo mark
+- `docs/community-blueprint.md` — planning notes
+- `docs/platform-notes.md` — backend notes
 
-- `index.html` — main landing page
-- `guidelines.html` — full community guidelines
-- `join.html` — founding member waitlist page
-- `platform.html` — backend/platform plan page
-- `assets/style.css` — full brand styling
-- `assets/script.js` — dynamic year script
-- `assets/logo.svg` — simple placeholder SVG brand mark
-- `docs/community-blueprint.md` — mission, audience, categories, moderation
-- `docs/platform-notes.md` — GitHub Pages + waitlist + future Discourse plan
+## GitHub Pages
+1. Upload all files to a new repository.
+2. Go to Settings → Pages.
+3. Source: Deploy from branch.
+4. Branch: `main`, folder `/root`.
+5. Save.
 
-## GitHub Pages setup
+## Form setup
+The form in `join.html` is static. Replace `action="#"` with a Wix form endpoint, Google Form, Tally, Formspree, Brevo, or your future backend.
 
-1. Create a new GitHub repository.
-2. Upload everything from this folder into the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/root`.
-6. Save.
-
-## Waitlist form setup
-
-The join page currently has this placeholder:
-
-```html
-<form class="form-card" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
-```
-
-Replace the action with your real form tool or change the button to link to a Wix Form, Brevo form, MailerLite form, or Google Form.
-
-## Brand notes
-
-The site is designed to visually match the current Throuple Tea energy: dark/neon, hot pink, orange, teal, premium glass cards, and direct friendship-first copy.
-
-## Future backend
-
-This website is the front door. The actual logged-in community can later live at:
-
-`community.throupletea.com`
-
-Recommended backend path:
-
-1. Self-hosted Discourse
-2. NodeBB
-3. Flarum
+## Suggested domain
+- `community.throupletea.com` for the community front door.
+- Later, point the actual member platform to a subdomain like `members.throupletea.com` or keep everything under `community.throupletea.com`.
