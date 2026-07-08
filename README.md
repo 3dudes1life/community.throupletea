@@ -1,4 +1,4 @@
-# Throuple Tea Community — Startup V2
+# Throuple Tea Community — Startup V3
 
 A polished GitHub Pages starter site for a free, friendship-first throuple and triad community.
 
@@ -45,3 +45,8 @@ A safe, free, friendship-first community for throuples, triads, and people explo
 ## V2 Polish
 
 This version includes the readable header/nav/hero typography pass across every page.
+
+
+## V3 Fix
+
+Fixed the title spacing/letter-spacing issue across all pages so large headlines no longer look cramped or hard to read.

@@ -200,7 +200,7 @@ h1{
   margin:18px 0 20px;
   font-size:clamp(40px, 5.8vw, 74px);
   line-height:.96;
-  letter-spacing:-.055em;
+  letter-spacing:-.018em;
 }
 .gradient-text{
   background:linear-gradient(135deg, #fff, #ffb5e0 35%, #ff8a3d 65%, #38e6d8);
@@ -281,7 +281,7 @@ h1{
 .counter strong{
   font-size:46px;
   line-height:1;
-  letter-spacing:-.055em;
+  letter-spacing:-.018em;
 }
 .counter span{color:var(--muted);font-weight:750}
 .progress{
@@ -343,7 +343,7 @@ h1{
 .section-head h2{
   font-size:clamp(30px, 3.4vw, 46px);
   line-height:1.03;
-  letter-spacing:-.04em;
+  letter-spacing:-.015em;
   margin:0;
 }
 .section-head p{
@@ -402,7 +402,7 @@ h1{
 .statement h2{
   font-size:clamp(32px,4.2vw,52px);
   line-height:1.02;
-  letter-spacing:-.045em;
+  letter-spacing:-.018em;
   margin-bottom:16px;
 }
 .statement p{
@@ -655,5 +655,74 @@ details p{
   }
   .nav-links .btn{
     flex:0 0 auto;
+  }
+}
+
+
+/* v3 title spacing fix across all pages */
+h1,
+.hero h1,
+.page-hero h1{
+  letter-spacing:-0.018em !important;
+  word-spacing:0.06em;
+  line-height:1.04 !important;
+  font-kerning:normal;
+  text-rendering:optimizeLegibility;
+  max-width:980px;
+}
+
+.hero h1{
+  font-size:clamp(38px, 5.35vw, 68px) !important;
+}
+
+.page-hero h1{
+  font-size:clamp(36px, 5vw, 62px) !important;
+}
+
+.section-head h2,
+.statement h2,
+.card h3{
+  letter-spacing:-0.012em !important;
+  word-spacing:0.035em;
+  line-height:1.08;
+}
+
+.gradient-text{
+  letter-spacing:-0.012em;
+  word-spacing:0.055em;
+}
+
+/* Header remains polished but easier to scan */
+.brand-text strong{
+  letter-spacing:0 !important;
+}
+.brand-text span{
+  letter-spacing:.035em;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+/* Keep very long headlines from visually crashing into the right side */
+.page-hero .container,
+.hero-grid > div{
+  min-width:0;
+}
+
+@media (min-width:1100px){
+  .hero h1{
+    font-size:66px !important;
+  }
+  .page-hero h1{
+    font-size:60px !important;
+  }
+}
+
+@media (max-width:760px){
+  h1,
+  .hero h1,
+  .page-hero h1{
+    letter-spacing:-0.01em !important;
+    word-spacing:0.04em;
+    line-height:1.08 !important;
   }
 }
