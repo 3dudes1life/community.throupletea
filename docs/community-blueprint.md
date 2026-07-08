@@ -1,14 +1,17 @@
-# Community Blueprint
+# Throuple Tea Community Blueprint
 
 ## Mission
-To create a welcoming, supportive community where throuples, triads, and those exploring non-traditional relationships can connect, learn, share experiences, and build meaningful friendships.
+Create a welcoming, supportive community where throuples, triads, and those exploring non-traditional relationships can connect, learn, share experiences, and build meaningful friendships.
+
+## Positioning
+Not a dating app. Not a hookup site. Not a marketplace to find a third. This is friendship-first infrastructure for people navigating real life together.
 
 ## Who this is for
 - Long-term throuples
 - New throuples
 - Triads
-- People exploring the possibility respectfully
-- Allies and professionals who genuinely want to understand
+- People exploring the possibility
+- Allies, supporters, therapists, and professionals who want to understand respectfully
 
 ## Who this is not for
 - Hookup seekers
@@ -18,21 +21,15 @@ To create a welcoming, supportive community where throuples, triads, and those e
 - Fetishization
 - Harassment or discrimination
 
-## Values
-- Authenticity
-- Respect
-- Privacy
-- Support
-- Growth
-- Friendship First
+## Launch model
+1. Founding 50: invite-only private beta
+2. Early Access 250: curated expansion with nominations
+3. Public Waitlist: broader applications with manual approval
+4. Open Community: public launch after culture and moderation are proven
 
-## First categories
-- Introductions
-- Relationship Support
-- Real Life as Three
-- Family & Coming Out
-- Housing & Finances
-- Travel & Adventures
-- Podcast Discussions
-- Resources
-- Community Announcements
+## Founding Member benefits
+- Founding Member badge
+- Ability to shape the first categories and rules
+- Early access to virtual events
+- Recognition as early community builders
+- Direct feedback loop with the Throuple Tea / 3Dudes1Life team

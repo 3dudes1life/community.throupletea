@@ -1,19 +1,33 @@
 # Platform Notes
 
-## Phase 1: GitHub Pages
-Use this static site as the public front door and waitlist.
+## Current version
+This repo is a static GitHub Pages website. It includes:
+- Countdown landing page
+- Founding 50 invite request page
+- Guidelines / culture code
+- Launch plan page
+- Thank-you page
 
-## Phase 2: Email/list capture
-Use Wix email/forms, Google Forms, Tally, Brevo, Formspree, or another cheap form tool to collect early-access requests.
+## Form options
+GitHub Pages does not process forms by itself. Use one of these:
+- Formspree: simplest external form endpoint
+- Netlify Forms: works if deployed on Netlify
+- Google Forms: easiest free option, less polished
+- Airtable Forms: good if you want applicant tracking
+- Brevo / MailerLite: good if email list is the main goal
 
-## Phase 3: Community backend
-Best owned options:
-1. Discourse self-hosted — strongest long-term option
-2. NodeBB — modern forum/chat feel
-3. Flarum — beautiful and lightweight, but may be easier to outgrow
+## Future community engine
+Recommended: self-hosted Discourse on `community.throupletea.com` once the Founding 50 are ready.
 
-## Why not Facebook
-The goal is to own the audience and create an asset independent of Meta’s rules, algorithm, and group limitations.
+Why Discourse later:
+- Mature moderation tools
+- Profiles
+- Private messages
+- Categories
+- Trust levels
+- Can scale beyond the first beta group
 
-## Priority
-Culture first. Platform second. Features third.
+## Manual fields to update
+- Countdown date: `assets/script.js`
+- Applicant count: `index.html`
+- Progress bar width: `assets/style.css` or inline style if preferred
