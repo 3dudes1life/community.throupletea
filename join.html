@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join the Waitlist | Throuple Tea Community</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Throuple Tea <span>Community</span></a>
+    <nav><a href="index.html">Home</a><a href="guidelines.html">Guidelines</a></nav>
+  </header>
+  <main class="page join-page">
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Founding Members</p>
+        <h1>Join the early list.</h1>
+        <p class="lead">We’re building this carefully, privately, and intentionally. Early members will help shape the culture before we open wider.</p>
+      </div>
+      <form class="signup-form" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>What best describes you?
+          <select name="relationship_status" required>
+            <option value="">Choose one</option>
+            <option>Established throuple / triad</option>
+            <option>New throuple / triad</option>
+            <option>Couple exploring</option>
+            <option>Individual exploring</option>
+            <option>Ally / professional</option>
+          </select>
+        </label>
+        <label>What are you hoping to find here?<textarea name="goals" rows="4"></textarea></label>
+        <button class="button primary" type="submit">Request invite</button>
+        <p class="small">Replace the Formspree link with Wix Forms, MailerLite, Brevo, Google Form, or your preferred waitlist tool.</p>
+      </form>
+    </section>
+  </main>
+  <footer><p>© <span id="year"></span> Throuple Tea Community</p></footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
