@@ -1,4 +1,4 @@
-# The Throuple Tea Community Blueprint
+# Throuple Tea Community Blueprint
 
 ## Positioning
 
@@ -18,7 +18,7 @@ We believe no one should have to navigate throuple life alone.
 - New throuples
 - Triads
 - People exploring the possibility
-- Allies, family, therapists, and professionals who want to understand with respect
+- Allies, family, therapists, and professionals who want to understand respectfully
 
 ## Who this is not for
 
@@ -29,7 +29,7 @@ We believe no one should have to navigate throuple life alone.
 - Fetishization
 - Harassment, hate speech, or discrimination
 
-## Suggested community categories
+## Founding community rooms
 
 1. Start Here / Introductions
 2. Daily Check-In
@@ -55,7 +55,7 @@ We believe no one should have to navigate throuple life alone.
 ## Launch plan
 
 ### Phase 1: Landing Page + Waitlist
-Collect interest, emails, and member needs.
+Collect interest, emails, and member needs. Track repeated questions.
 
 ### Phase 2: Founding Member Beta
 Invite 25–100 people manually. Watch what conversations naturally happen.
