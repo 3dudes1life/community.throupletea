@@ -1,7 +1,42 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Launch Plan | Throuple Tea Community</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;850;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"/></head><body>
-<header class="nav"><div class="container nav-inner"><a class="brand" href="index.html"><span class="logo">TT</span><span>Throuple Tea Community</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="guidelines.html">Guidelines</a><a class="active" href="platform.html">Launch Plan</a><a class="btn small" href="join.html">Request Invite</a></nav></div></header>
-<main><section class="hero"><div class="container"><div class="kicker">Behind the scenes</div><h1>Website now. Community engine next.</h1><p class="lead">This repo is the polished front door. The actual member area can be connected later to Discourse, NodeBB, Flarum, or a custom app without losing the brand, waitlist, or launch momentum.</p></div></section>
-<section class="section"><div class="container grid-3"><article class="card phase"><span class="tag">Now</span><h3>GitHub Pages</h3><p>Host the public landing pages, guidelines, invite request page, launch plan, and countdown.</p></article><article class="card phase"><span class="tag">Next</span><h3>Form backend</h3><p>Connect Formspree, Netlify Forms, Google Forms, Airtable, or Brevo so applications collect cleanly.</p></article><article class="card phase"><span class="tag">Beta</span><h3>Private community</h3><p>Spin up Discourse on a subdomain when ready: <strong>community.throupletea.com</strong>.</p></article></div></section>
-<section class="section"><div class="container split"><div class="card panel"><div class="kicker">Recommended stack</div><h2>Cheap but not cheap-looking.</h2><div class="list"><div><strong>Front door:</strong> GitHub Pages</div><div><strong>Waitlist:</strong> Formspree / Netlify / Google Forms / Brevo</div><div><strong>Email:</strong> Existing Wix / OutAt Inc email</div><div><strong>Community:</strong> Self-hosted Discourse later</div><div><strong>Subdomain:</strong> community.throupletea.com</div></div></div><div class="card panel"><div class="kicker">Why this order</div><h2>No wasted money.</h2><p>You get a premium-looking invite experience first, collect interest quietly, and avoid paying platform fees before there is enough activity to justify them.</p><p>When the first 50 are ready, the community backend becomes the private room behind this front door.</p></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div class="kicker">Development checklist</div><h2>What to do before announcing.</h2></div><div class="grid-2"><article class="card rule"><h3>1. Update countdown date</h3><p>Edit <code>assets/script.js</code> and set the private beta target date.</p></article><article class="card rule"><h3>2. Connect the form</h3><p>Choose a form backend so applications arrive in email or a spreadsheet.</p></article><article class="card rule"><h3>3. Set applicant count</h3><p>Change the visible 17 / 50 count in <code>index.html</code> while applications come in.</p></article><article class="card rule"><h3>4. Prepare beta categories</h3><p>Start with Introductions, Relationship Talk, Family, Living Together, Travel, Finances, Pets, and Podcast Talk.</p></article></div></div></section></main>
-<footer class="footer"><div class="container footer-inner"><span>© 2026 Throuple Tea Community</span><span><a href="join.html">Request Invite</a></span></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Platform Plan | Throuple Tea Community</title>
+  <meta name="description" content="The GitHub and community backend plan for the Throuple Tea Community." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;850;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="index.html" aria-label="Throuple Tea Community home">
+      <span class="brand-mark">TT</span><span class="brand-text">Throuple Tea Community</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="" href="index.html">Home</a><a class="" href="guidelines.html">Guidelines</a><a class="" href="phases.html">VIP Phases</a><a class="active" href="platform.html">Platform Plan</a><a class="nav-cta" href="join.html">Request Invite</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero"><div class="container"><p class="eyebrow">Platform Plan</p><h1>Website now. Community backend next.</h1><p class="lead">This GitHub site is the polished front door. The actual member space can connect later through Discourse, NodeBB, or another owned platform when the Founding 50 are ready.</p></div></section>
+  <section class="content-section"><div class="container content-grid"><aside class="toc-card"><strong>Build path</strong><a href="#now">Current site</a><a href="#backend">Backend</a><a href="#email">Email</a><a href="#next">Next steps</a></aside><article class="prose-card">
+    <section id="now"><p class="eyebrow">Current Site</p><h2>GitHub Pages front door</h2><p>This repository is a static website for the VIP launch: countdown, invite request page, guidelines, and phase plan. It is intentionally simple, fast, and owned.</p></section>
+    <section id="backend"><p class="eyebrow">Community Backend</p><h2>Best next platform</h2><p>Use the static site now and connect a real community engine later at <code>community.throupletea.com</code>. Self-hosted Discourse is the strongest long-term fit because it supports profiles, forums, chat, moderation, trust levels, and owned data.</p><div class="mini-list"><div><h3>Discourse</h3><p>Best serious community option. More setup, strongest moderation.</p></div><div><h3>NodeBB</h3><p>More modern/social feel. Good option if chat-style energy matters more.</p></div></div></section>
+    <section id="email"><p class="eyebrow">Email</p><h2>Use the OutAt Inc / Wix umbrella</h2><p>The invite workflow can start with a simple form link that sends to an owned email address like <code>community@throupletea.com</code> or <code>hello@throupletea.com</code>. Later, connect it to Brevo, MailerLite, Wix Forms, Google Forms, or a custom backend.</p></section>
+    <section id="next"><p class="eyebrow">Next Steps</p><h2>Before public promotion</h2><ol><li>Set the real countdown date in <code>assets/script.js</code>.</li><li>Connect the invite form on <code>join.html</code>.</li><li>Decide the first 8–10 community categories.</li><li>Pick the first 50 people manually.</li><li>Test Discourse privately before linking it publicly.</li></ol><div class="hero-actions"><a class="button primary" href="join.html">View Invite Page</a><a class="button ghost" href="phases.html">View VIP Phases</a></div></section>
+  </article></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <p>© 2026 Throuple Tea Community · Friendship first. Support always.</p>
+    <div class="footer-links"><a href="guidelines.html">Guidelines</a><a href="phases.html">VIP Phases</a><a href="join.html">Request Invite</a></div>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
