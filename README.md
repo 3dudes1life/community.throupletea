@@ -1,20 +1,42 @@
-# Throuple Tea Community — VIP Launch Site
+# Throuple Tea Community — Startup V1
 
-A polished GitHub Pages starter site for the invite-only Throuple Tea Community launch.
+A polished GitHub Pages starter site for a free, friendship-first throuple and triad community.
 
-## Pages
-- `index.html` — main VIP countdown landing page
-- `guidelines.html` — community culture code
-- `phases.html` — phased rollout plan
-- `platform.html` — GitHub + future backend plan
-- `join.html` — founding member request page
+## Included Pages
+
+- `index.html` — premium landing page with countdown, always-free vision, phases, and locked room preview
+- `join.html` — Founding Member application page
+- `locked.html` — locked community room preview
+- `phases.html` — phased VIP launch plan
+- `guidelines.html` — community guidelines and culture rules
+- `platform.html` — GitHub + future community backend plan
+- `founder-story.html` — origin story / why we built this
+- `faq.html` — public FAQ
+- `privacy.html` and `terms.html` — draft placeholders
 - `thank-you.html` — demo form confirmation page
 
-## Update before launch
-1. Change the countdown date in `assets/script.js`.
-2. Update the Founding Access count in `index.html`.
-3. Connect `join.html` to Wix Forms, Formspree, Google Forms, Brevo, or another backend.
-4. Replace `assets/logo.svg` with the real Throuple Tea logo if desired.
+## Quick GitHub Pages Setup
 
-## GitHub Pages
-Upload all files to the repo root, then enable GitHub Pages from the repository settings.
+1. Create a new GitHub repository.
+2. Upload all files from this folder.
+3. Go to Settings → Pages.
+4. Set source to main branch / root.
+5. Publish.
+
+## Important Next Edits
+
+- Replace the demo counter number `12 / 50` with the real count.
+- Change the countdown date inside `assets/app.js`.
+- Connect the application form on `join.html` to Wix Forms, Formspree, Airtable, Brevo, or Google Forms.
+- Replace `assets/logo.svg` with the official Throuple Tea logo if desired.
+
+## Core Positioning
+
+Built by us. For us. Always free.
+
+Not a dating app.
+Not a hookup space.
+Not unicorn hunting.
+Not another paid subscription.
+
+A safe, free, friendship-first community for throuples, triads, and people exploring the possibility.

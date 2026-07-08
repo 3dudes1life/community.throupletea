@@ -1,37 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Request Invite | Throuple Tea Community</title>
-  <meta name="description" content="Request Founding Member access for the Throuple Tea Community." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;850;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply | Throuple Tea Community</title>
+  <meta name="description" content="A safe, friendship-first community for throuples and triads." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
-  <div class="container nav-shell">
+  <div class="container nav">
     <a class="brand" href="index.html" aria-label="Throuple Tea Community home">
-      <span class="brand-mark">TT</span><span class="brand-text">Throuple Tea Community</span>
+      <span class="brand-mark">☕</span>
+      <span class="brand-text"><strong>Throuple Tea Community</strong><span>Built by us. For us.</span></span>
     </a>
-    <nav class="site-nav" aria-label="Main navigation">
-      <a class="" href="index.html">Home</a><a class="" href="guidelines.html">Guidelines</a><a class="" href="phases.html">VIP Phases</a><a class="" href="platform.html">Platform Plan</a><a class="nav-cta" href="join.html">Request Invite</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="" href="index.html">Home</a>
+<a class="active" href="join.html">Apply</a>
+<a class="" href="locked.html">Preview</a>
+<a class="" href="phases.html">Phases</a>
+<a class="" href="guidelines.html">Guidelines</a>
+<a class="" href="platform.html">Platform</a>
+<a class="" href="founder-story.html">Why</a>
+<a class="" href="faq.html">FAQ</a>
+      <a class="btn small primary" href="join.html">Founding Access</a>
     </nav>
   </div>
 </header>
+
 <main id="main">
-  <section class="page-hero"><div class="container"><p class="eyebrow">Request Invite</p><h1>Apply for Founding Access.</h1><p class="lead">The first 50 members will help shape the room before this becomes public. This is free, curated, and friendship-first.</p></div></section>
-  <section class="content-section"><div class="container form-layout"><form class="form-card" action="thank-you.html"><p class="eyebrow">Founding Member Request</p><h2>Tell us where you are in the journey.</h2><p class="muted">This demo form works for GitHub Pages. Connect it later to Wix Forms, Formspree, Google Forms, Brevo, or your custom backend.</p><label>Name<input name="name" required placeholder="Your name"></label><label>Email<input name="email" type="email" required placeholder="you@example.com"></label><label>Relationship status<select name="status" required><option value="">Choose one</option><option>Established throuple</option><option>New throuple</option><option>Triad</option><option>Exploring the possibility</option><option>Ally / professional support</option></select></label><label>Biggest challenge right now<select name="challenge"><option>Finding community</option><option>Communication</option><option>Jealousy</option><option>Family acceptance</option><option>Living together</option><option>Finances</option><option>Travel / public judgment</option><option>Other</option></select></label><label>Why do you want to join?<textarea name="why" rows="5" placeholder="Short answer"></textarea></label><button class="button primary full" type="submit">Request Invite</button></form><aside class="panel"><p class="eyebrow">What happens next</p><h2>Curated access.</h2><ul class="check-list"><li>Review requests manually.</li><li>Invite the first 50 slowly.</li><li>Keep the culture protected.</li><li>Expand only when the room feels ready.</li></ul><p class="small-note">No dating app. No hookup site. No unicorn hunting.</p></aside></div></section>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Founding Member Application</span>
+    <h1>Help shape the first 50.</h1>
+    <p>Founding Members get free early access, a founding badge, and a voice in shaping the culture before the community opens wider.</p>
+  </div>
+</section>
+<section class="section tight">
+  <div class="container grid-2">
+    <form class="form-card" data-application-form>
+      <div class="form-grid">
+        <label>First name<input required name="name" placeholder="Your first name"></label>
+        <label>Email<input required name="email" type="email" placeholder="you@example.com"></label>
+        <label>Relationship status<select required name="status"><option value="">Choose one</option><option>Established throuple / triad</option><option>New throuple / triad</option><option>Exploring the possibility</option><option>Ally / supporter</option><option>Professional / resource provider</option></select></label>
+        <label>Location<input name="location" placeholder="City, State / Country"></label>
+        <label class="full">Biggest thing you hope to find here<textarea name="why" placeholder="Community, advice, friendships, support, people who understand..."></textarea></label>
+        <label class="full">What topic matters most right now?<select name="topic"><option>Finding community</option><option>Communication</option><option>Family acceptance</option><option>Jealousy / insecurity</option><option>Living together</option><option>Finances</option><option>Travel</option><option>Other</option></select></label>
+      </div>
+      <p class="helper">Demo form for GitHub Pages. Connect this to Formspree, Google Forms, Wix Forms, Airtable, or Brevo when ready.</p>
+      <button class="btn primary" type="submit">Submit Application</button>
+    </form>
+    <aside class="card">
+      <div class="icon">☕</div>
+      <h3>What Founding Members receive</h3>
+      <ul>
+        <li>Free early access</li>
+        <li>Founding Member badge</li>
+        <li>Ability to shape rooms and rules</li>
+        <li>Invite-first access during Phase 2</li>
+        <li>A chance to help build the safest throuple community online</li>
+      </ul>
+      <p><strong>Still free.</strong> VIP means early and intentional, not expensive.</p>
+    </aside>
+  </div>
+</section>
+
 </main>
+
 <footer class="site-footer">
   <div class="container footer-grid">
-    <p>© 2026 Throuple Tea Community · Friendship first. Support always.</p>
-    <div class="footer-links"><a href="guidelines.html">Guidelines</a><a href="phases.html">VIP Phases</a><a href="join.html">Request Invite</a></div>
+    <div>
+      <strong>Throuple Tea Community</strong><br>
+      Built by us. For us. Always free.
+    </div>
+    <div class="footer-links">
+      <a href="join.html">Apply</a>
+      <a href="guidelines.html">Guidelines</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
   </div>
 </footer>
-<script src="assets/script.js"></script>
+<script src="assets/app.js"></script>
+
 </body>
 </html>
